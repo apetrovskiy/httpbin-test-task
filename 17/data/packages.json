@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests.test_response",
+    "children" : [ {
+      "name" : "test_expected_response[None-401]",
+      "uid" : "3289bb176387cb1",
+      "parentUid" : "165d4ce8a5de09de1697596923549c87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618605375661,
+        "stop" : 1618605375992,
+        "duration" : 331
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "401", "None" ]
+    }, {
+      "name" : "test_expected_response[Bearer A-200]",
+      "uid" : "fd13e5e8acda7a5a",
+      "parentUid" : "165d4ce8a5de09de1697596923549c87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618605376024,
+        "stop" : 1618605376415,
+        "duration" : 391
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "200", "'Bearer A'" ]
+    }, {
+      "name" : "test_inexplicable_response[Bearer abc-403]",
+      "uid" : "d9ff44885cd45fe8",
+      "parentUid" : "165d4ce8a5de09de1697596923549c87",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1618605376417,
+        "stop" : 1618605376417,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "403", "'Bearer abc'" ]
+    } ],
+    "uid" : "tests.test_response"
+  }, {
+    "name" : "successful authentication",
+    "uid" : "63564c4084800bc4",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1618605376700,
+      "stop" : 1618605377067,
+      "duration" : 367
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "failed authentication",
+    "uid" : "6c8c080443b4edcd",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "failed",
+    "time" : {
+      "start" : 1618605377068,
+      "stop" : 1618605377437,
+      "duration" : 369
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "packages"
+}

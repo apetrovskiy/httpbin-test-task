@@ -1,0 +1,74 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "test_expected_response[None-401]",
+    "uid" : "3289bb176387cb1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1618605375661,
+      "stop" : 1618605375992,
+      "duration" : 331
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "401", "None" ]
+  }, {
+    "name" : "test_expected_response[Bearer A-200]",
+    "uid" : "fd13e5e8acda7a5a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1618605376024,
+      "stop" : 1618605376415,
+      "duration" : 391
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "200", "'Bearer A'" ]
+  }, {
+    "name" : "test_inexplicable_response[Bearer abc-403]",
+    "uid" : "d9ff44885cd45fe8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1618605376417,
+      "stop" : 1618605376417,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "403", "'Bearer abc'" ]
+  }, {
+    "name" : "response parsing",
+    "children" : [ {
+      "name" : "successful authentication",
+      "uid" : "63564c4084800bc4",
+      "parentUid" : "a115dadd8c76b6543d857ceb059d6ee3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618605376700,
+        "stop" : 1618605377067,
+        "duration" : 367
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "failed authentication",
+      "uid" : "6c8c080443b4edcd",
+      "parentUid" : "a115dadd8c76b6543d857ceb059d6ee3",
+      "status" : "failed",
+      "time" : {
+        "start" : 1618605377068,
+        "stop" : 1618605377437,
+        "duration" : 369
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a115dadd8c76b6543d857ceb059d6ee3"
+  } ],
+  "name" : "behaviors"
+}

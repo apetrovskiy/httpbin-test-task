@@ -1,0 +1,59 @@
+{
+  "uid" : "fd13e5e8acda7a5a",
+  "name" : "test_expected_response[Bearer A-200]",
+  "fullName" : "tests.test_response#test_expected_response",
+  "historyId" : "64dcdfcc8ee0ef220d511978e1aa0124",
+  "time" : {
+    "start" : 1618605376024,
+    "stop" : 1618605376415,
+    "duration" : 391
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_response"
+  }, {
+    "name" : "host",
+    "value" : "fv-az199-174"
+  }, {
+    "name" : "thread",
+    "value" : "3065-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_response"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "200"
+  }, {
+    "name" : "token",
+    "value" : "'Bearer A'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd13e5e8acda7a5a.json",
+  "parameterValues" : [ "200", "'Bearer A'" ]
+}
