@@ -24,11 +24,15 @@ jobs:
     - name: Lint with flake8
       run: |
         flake8 .
-    - name: Test with pytest and behave
+    - name: Test with pytest
+      if: always()
+      run: |
+        pytest --alluredir=allure-results
+    - name: Test with behave
+      if: always()
       run: |
         behave -f allure_behave.formatter:AllureFormatter -o allure-results ./features
         allure generate allure-results/ -o allure-reports
-        pytest --alluredir=allure-results
         # allure open allure/reports
 #     - name: Analysing the code with pylint
 #       run: |
