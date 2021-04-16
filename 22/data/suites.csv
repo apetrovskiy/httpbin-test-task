@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Fri Apr 16 20:56:36 GMT 2021","Fri Apr 16 20:56:36 GMT 2021","304","","","","","","failed authentication",""
+"passed","Fri Apr 16 20:56:34 GMT 2021","Fri Apr 16 20:56:34 GMT 2021","341","tests","test_response","","","","test_expected_response[None-401]",""
+"passed","Fri Apr 16 20:56:35 GMT 2021","Fri Apr 16 20:56:36 GMT 2021","334","","","","","","successful authentication",""
+"passed","Fri Apr 16 20:56:34 GMT 2021","Fri Apr 16 20:56:35 GMT 2021","329","tests","test_response","","","","test_expected_response[Bearer A-200]",""
+"failed","Fri Apr 16 20:56:35 GMT 2021","Fri Apr 16 20:56:35 GMT 2021","317","tests","test_response","","","","test_inexplicable_response[Bearer abc-403]",""

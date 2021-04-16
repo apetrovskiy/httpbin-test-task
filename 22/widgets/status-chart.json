@@ -1,0 +1,51 @@
+[ {
+  "uid" : "1d6d829acb79d711",
+  "name" : "failed authentication",
+  "time" : {
+    "start" : 1618606596187,
+    "stop" : 1618606596491,
+    "duration" : 304
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f135e8ce5688ccd",
+  "name" : "test_expected_response[None-401]",
+  "time" : {
+    "start" : 1618606594545,
+    "stop" : 1618606594886,
+    "duration" : 341
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6893a33878f6cc0",
+  "name" : "successful authentication",
+  "time" : {
+    "start" : 1618606595852,
+    "stop" : 1618606596186,
+    "duration" : 334
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5258f0b7b70a835",
+  "name" : "test_expected_response[Bearer A-200]",
+  "time" : {
+    "start" : 1618606594922,
+    "stop" : 1618606595251,
+    "duration" : 329
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7bdc2ef4bb243e2d",
+  "name" : "test_inexplicable_response[Bearer abc-403]",
+  "time" : {
+    "start" : 1618606595255,
+    "stop" : 1618606595572,
+    "duration" : 317
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
