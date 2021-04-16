@@ -25,14 +25,15 @@ jobs:
       run: |
         flake8 .
     - name: Test with pytest
+      if: always()
       run: |
         pytest --alluredir=allure-results
     - name: Test with behave
+      if: always()
       run: |
         behave -f allure_behave.formatter:AllureFormatter -o allure-results ./features
         allure generate allure-results/ -o allure-reports
         # allure open allure/reports
-        # behave features\response.feature --alluredir=allure-results
 #     - name: Analysing the code with pylint
 #       run: |
 #         pylint `ls -R|grep .py$|xargs`
