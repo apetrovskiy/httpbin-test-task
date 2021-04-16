@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 403 == 200\n +  where 200 = <Response [200]>.status_code\n +    where <Response [200]> = get_response('Bearer abc')",
+      "children" : [ {
+        "name" : "test_inexplicable_response[Bearer abc-403]",
+        "uid" : "bf9af5a75d7df1ac",
+        "parentUid" : "870d01f2cd6cd639f9a45e3f3ce5c87e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618606838578,
+          "stop" : 1618606838901,
+          "duration" : 323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "403", "'Bearer abc'" ]
+      } ],
+      "uid" : "870d01f2cd6cd639f9a45e3f3ce5c87e"
+    }, {
+      "name" : "AssertionError\n",
+      "children" : [ {
+        "name" : "failed authentication",
+        "uid" : "710d736b26331db9",
+        "parentUid" : "a730cf0b0a23aabea6d11aa0391c8a76",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618606839523,
+          "stop" : 1618606839888,
+          "duration" : 365
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a730cf0b0a23aabea6d11aa0391c8a76"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

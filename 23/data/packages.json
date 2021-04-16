@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests.test_response",
+    "children" : [ {
+      "name" : "test_expected_response[None-401]",
+      "uid" : "13b8522eac87fcee",
+      "parentUid" : "165d4ce8a5de09de1697596923549c87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618606837899,
+        "stop" : 1618606838209,
+        "duration" : 310
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "401", "None" ]
+    }, {
+      "name" : "test_expected_response[Bearer A-200]",
+      "uid" : "caa05fddd5f3a912",
+      "parentUid" : "165d4ce8a5de09de1697596923549c87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618606838213,
+        "stop" : 1618606838575,
+        "duration" : 362
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "200", "'Bearer A'" ]
+    }, {
+      "name" : "test_inexplicable_response[Bearer abc-403]",
+      "uid" : "bf9af5a75d7df1ac",
+      "parentUid" : "165d4ce8a5de09de1697596923549c87",
+      "status" : "failed",
+      "time" : {
+        "start" : 1618606838578,
+        "stop" : 1618606838901,
+        "duration" : 323
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "403", "'Bearer abc'" ]
+    } ],
+    "uid" : "tests.test_response"
+  }, {
+    "name" : "successful authentication",
+    "uid" : "3064574de8512f68",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1618606839198,
+      "stop" : 1618606839522,
+      "duration" : 324
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "failed authentication",
+    "uid" : "710d736b26331db9",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "failed",
+    "time" : {
+      "start" : 1618606839523,
+      "stop" : 1618606839888,
+      "duration" : 365
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "packages"
+}

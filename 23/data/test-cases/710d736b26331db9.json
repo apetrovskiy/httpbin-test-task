@@ -1,0 +1,180 @@
+{
+  "uid" : "710d736b26331db9",
+  "name" : "failed authentication",
+  "fullName" : "response parsing: failed authentication",
+  "historyId" : "ccc4d715b0962c74b373ff8300e7d21b",
+  "time" : {
+    "start" : 1618606839523,
+    "stop" : 1618606839888,
+    "duration" : 365
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError\n",
+  "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.4/x64/lib/python3.9/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.4/x64/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/response_steps.py\", line 17, in then_user_gets_status_code\n    assert int(status_code) == context.response.status_code\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError\n",
+    "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.4/x64/lib/python3.9/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.4/x64/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/response_steps.py\", line 17, in then_user_gets_status_code\n    assert int(status_code) == context.response.status_code\n",
+    "steps" : [ {
+      "name" : "Given there is a user with token 'Bearer ABC'",
+      "time" : {
+        "start" : 1618606839524,
+        "stop" : 1618606839524,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When user gets data from endpoint",
+      "time" : {
+        "start" : 1618606839524,
+        "stop" : 1618606839886,
+        "duration" : 362
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then user gets status code '403'",
+      "time" : {
+        "start" : 1618606839886,
+        "stop" : 1618606839887,
+        "duration" : 1
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.4/x64/lib/python3.9/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.4/x64/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/response_steps.py\", line 17, in then_user_gets_status_code\n    assert int(status_code) == context.response.status_code\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "And response contains authenticated equal 'False'",
+      "time" : {
+        "start" : 1618606839887,
+        "stop" : 1618606839888,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And response token corresponds to the request token",
+      "time" : {
+        "start" : 1618606839888,
+        "stop" : 1618606839888,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "response parsing"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "1d6d829acb79d711",
+        "reportUrl" : "https://apetrovskiy.github.io/httpbin-test-task/22//#testresult/1d6d829acb79d711",
+        "status" : "failed",
+        "statusDetails" : "AssertionError\n",
+        "time" : {
+          "start" : 1618606596187,
+          "stop" : 1618606596491,
+          "duration" : 304
+        }
+      }, {
+        "uid" : "599278e2b96965f4",
+        "reportUrl" : "https://apetrovskiy.github.io/httpbin-test-task/21//#testresult/599278e2b96965f4",
+        "status" : "failed",
+        "statusDetails" : "AssertionError\n",
+        "time" : {
+          "start" : 1618606317951,
+          "stop" : 1618606318264,
+          "duration" : 313
+        }
+      }, {
+        "uid" : "6c8c080443b4edcd",
+        "reportUrl" : "https://apetrovskiy.github.io/httpbin-test-task/17//#testresult/6c8c080443b4edcd",
+        "status" : "failed",
+        "statusDetails" : "AssertionError\n",
+        "time" : {
+          "start" : 1618605377068,
+          "stop" : 1618605377437,
+          "duration" : 369
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "710d736b26331db9.json",
+  "parameterValues" : [ ]
+}

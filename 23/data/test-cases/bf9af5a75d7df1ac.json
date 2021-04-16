@@ -1,0 +1,126 @@
+{
+  "uid" : "bf9af5a75d7df1ac",
+  "name" : "test_inexplicable_response[Bearer abc-403]",
+  "fullName" : "tests.test_response#test_inexplicable_response",
+  "historyId" : "1ff0b8f32357777e6cf3167f0e4dc25e",
+  "time" : {
+    "start" : 1618606838578,
+    "stop" : 1618606838901,
+    "duration" : 323
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 403 == 200\n +  where 200 = <Response [200]>.status_code\n +    where <Response [200]> = get_response('Bearer abc')",
+  "statusTrace" : "token = 'Bearer abc', expected_result = 403\n\n    @pytest.mark.parametrize(\"token,expected_result\", test_data_for_wrong_cases)\n    def test_inexplicable_response(token: Any, expected_result: int):\n>       assert expected_result == get_response(token).status_code\nE       AssertionError: assert 403 == 200\nE        +  where 200 = <Response [200]>.status_code\nE        +    where <Response [200]> = get_response('Bearer abc')\n\ntests/test_response.py:27: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_response"
+  }, {
+    "name" : "host",
+    "value" : "fv-az245-205"
+  }, {
+    "name" : "thread",
+    "value" : "3140-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_response"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "403"
+  }, {
+    "name" : "token",
+    "value" : "'Bearer abc'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "7bdc2ef4bb243e2d",
+        "reportUrl" : "https://apetrovskiy.github.io/httpbin-test-task/22//#testresult/7bdc2ef4bb243e2d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 403 == 200\n +  where 200 = <Response [200]>.status_code\n +    where <Response [200]> = get_response('Bearer abc')",
+        "time" : {
+          "start" : 1618606595255,
+          "stop" : 1618606595572,
+          "duration" : 317
+        }
+      }, {
+        "uid" : "39065c2b70336063",
+        "reportUrl" : "https://apetrovskiy.github.io/httpbin-test-task/20//#testresult/39065c2b70336063",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 403 == 200\n +  where 200 = <Response [200]>.status_code\n +    where <Response [200]> = get_response('Bearer abc')",
+        "time" : {
+          "start" : 1618606077659,
+          "stop" : 1618606077851,
+          "duration" : 192
+        }
+      }, {
+        "uid" : "d27c0ff0fa09e6f",
+        "reportUrl" : "https://apetrovskiy.github.io/httpbin-test-task/19//#testresult/d27c0ff0fa09e6f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 403 == 200\n +  where 200 = <Response [200]>.status_code\n +    where <Response [200]> = get_response('Bearer abc')",
+        "time" : {
+          "start" : 1618605785060,
+          "stop" : 1618605785106,
+          "duration" : 46
+        }
+      }, {
+        "uid" : "12e5f88ecb5c2364",
+        "reportUrl" : "https://apetrovskiy.github.io/httpbin-test-task/18//#testresult/12e5f88ecb5c2364",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 403 == 200\n +  where 200 = <Response [200]>.status_code\n +    where <Response [200]> = get_response('Bearer abc')",
+        "time" : {
+          "start" : 1618605629407,
+          "stop" : 1618605629706,
+          "duration" : 299
+        }
+      }, {
+        "uid" : "d9ff44885cd45fe8",
+        "reportUrl" : "https://apetrovskiy.github.io/httpbin-test-task/17//#testresult/d9ff44885cd45fe8",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: endpoint returns 200 on sending invalid token     while it should return 403",
+        "time" : {
+          "start" : 1618605376417,
+          "stop" : 1618605376417,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bf9af5a75d7df1ac.json",
+  "parameterValues" : [ "403", "'Bearer abc'" ]
+}
