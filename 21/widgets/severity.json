@@ -1,0 +1,21 @@
+[ {
+  "uid" : "599278e2b96965f4",
+  "name" : "failed authentication",
+  "time" : {
+    "start" : 1618606317951,
+    "stop" : 1618606318264,
+    "duration" : 313
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff82b6e1e03e1fc5",
+  "name" : "successful authentication",
+  "time" : {
+    "start" : 1618606317639,
+    "stop" : 1618606317950,
+    "duration" : 311
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,35 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "response parsing",
+    "children" : [ {
+      "name" : "successful authentication",
+      "uid" : "ff82b6e1e03e1fc5",
+      "parentUid" : "a115dadd8c76b6543d857ceb059d6ee3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618606317639,
+        "stop" : 1618606317950,
+        "duration" : 311
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "failed authentication",
+      "uid" : "599278e2b96965f4",
+      "parentUid" : "a115dadd8c76b6543d857ceb059d6ee3",
+      "status" : "failed",
+      "time" : {
+        "start" : 1618606317951,
+        "stop" : 1618606318264,
+        "duration" : 313
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a115dadd8c76b6543d857ceb059d6ee3"
+  } ],
+  "name" : "behaviors"
+}
