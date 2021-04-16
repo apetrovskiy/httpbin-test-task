@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 403 == 200\n +  where 200 = <Response [200]>.status_code\n +    where <Response [200]> = get_response('Bearer abc')",
+      "children" : [ {
+        "name" : "test_inexplicable_response[Bearer abc-403]",
+        "uid" : "d27c0ff0fa09e6f",
+        "parentUid" : "870d01f2cd6cd639f9a45e3f3ce5c87e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618605785060,
+          "stop" : 1618605785106,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "403", "'Bearer abc'" ]
+      } ],
+      "uid" : "870d01f2cd6cd639f9a45e3f3ce5c87e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
