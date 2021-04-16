@@ -1,0 +1,13 @@
+[ {
+  "buildOrder" : 13,
+  "reportUrl" : "https://apetrovskiy.github.io/httpbin-test-task/13/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 1,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 3
+  }
+} ]

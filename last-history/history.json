@@ -1,0 +1,63 @@
+{
+  "64dcdfcc8ee0ef220d511978e1aa0124" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a304902dafd5bd",
+      "reportUrl" : "https://apetrovskiy.github.io/httpbin-test-task/13//#testresult/3a304902dafd5bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618601447259,
+        "stop" : 1618601447722,
+        "duration" : 463
+      }
+    } ]
+  },
+  "31f10662a67f721894987ddc5f94f98b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2d93163aec653fc",
+      "reportUrl" : "https://apetrovskiy.github.io/httpbin-test-task/13//#testresult/b2d93163aec653fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618601446847,
+        "stop" : 1618601447205,
+        "duration" : 358
+      }
+    } ]
+  },
+  "1ff0b8f32357777e6cf3167f0e4dc25e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "62a8d9336c5df659",
+      "reportUrl" : "https://apetrovskiy.github.io/httpbin-test-task/13//#testresult/62a8d9336c5df659",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: TODO: endpoint returns 200 on sending invalid token     while it should return 403",
+      "time" : {
+        "start" : 1618601447725,
+        "stop" : 1618601447725,
+        "duration" : 0
+      }
+    } ]
+  }
+}

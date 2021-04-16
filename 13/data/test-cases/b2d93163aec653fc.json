@@ -1,0 +1,59 @@
+{
+  "uid" : "b2d93163aec653fc",
+  "name" : "test_expected_response[None-401]",
+  "fullName" : "tests.test_response#test_expected_response",
+  "historyId" : "31f10662a67f721894987ddc5f94f98b",
+  "time" : {
+    "start" : 1618601446847,
+    "stop" : 1618601447205,
+    "duration" : 358
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_response"
+  }, {
+    "name" : "host",
+    "value" : "fv-az269-57"
+  }, {
+    "name" : "thread",
+    "value" : "3259-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_response"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "401"
+  }, {
+    "name" : "token",
+    "value" : "None"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b2d93163aec653fc.json",
+  "parameterValues" : [ "401", "None" ]
+}

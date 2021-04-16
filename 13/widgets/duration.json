@@ -1,0 +1,31 @@
+[ {
+  "uid" : "62a8d9336c5df659",
+  "name" : "test_inexplicable_response[Bearer abc-403]",
+  "time" : {
+    "start" : 1618601447725,
+    "stop" : 1618601447725,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3a304902dafd5bd",
+  "name" : "test_expected_response[Bearer A-200]",
+  "time" : {
+    "start" : 1618601447259,
+    "stop" : 1618601447722,
+    "duration" : 463
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2d93163aec653fc",
+  "name" : "test_expected_response[None-401]",
+  "time" : {
+    "start" : 1618601446847,
+    "stop" : 1618601447205,
+    "duration" : 358
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
