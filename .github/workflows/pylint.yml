@@ -27,8 +27,8 @@ jobs:
     - name: Test with pytest
       run: |
         pytest --alluredir=allure-results
-    - name: Test with behave
-      run: |
+        # - name: Test with behave
+        # run: |
         behave -f allure_behave.formatter:AllureFormatter -o %allure_result_folder% ./features
         # behave features\response.feature --alluredir=allure-results
 #     - name: Analysing the code with pylint
