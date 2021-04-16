@@ -1,22 +1,3 @@
 [ {
-  "buildOrder" : 15,
-  "reportUrl" : "https://apetrovskiy.github.io/httpbin-test-task/15/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 806
-  }
-}, {
-  "buildOrder" : 14,
-  "reportUrl" : "https://apetrovskiy.github.io/httpbin-test-task/14/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 708
-  }
-}, {
-  "buildOrder" : 13,
-  "reportUrl" : "https://apetrovskiy.github.io/httpbin-test-task/13/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 878
-  }
+  "data" : { }
 } ]
