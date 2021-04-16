@@ -27,6 +27,6 @@ jobs:
     - name: Test with pytest
       run: |
         pytest --alluredir=allure-results
-    - name: Analysing the code with pylint
-      run: |
-        pylint `ls -R|grep .py$|xargs`
+#     - name: Analysing the code with pylint
+#       run: |
+#         pylint `ls -R|grep .py$|xargs`
