@@ -1,0 +1,95 @@
+{
+  "uid" : "a4fdfdb656336c08",
+  "name" : "test_inexplicable_response[Bearer abc-403]",
+  "fullName" : "tests.test_response#test_inexplicable_response",
+  "historyId" : "1ff0b8f32357777e6cf3167f0e4dc25e",
+  "time" : {
+    "start" : 1618602035466,
+    "stop" : 1618602035466,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: TODO: endpoint returns 200 on sending invalid token     while it should return 403",
+  "statusTrace" : "('/home/runner/work/httpbin-test-task/httpbin-test-task/tests/test_response.py', 23, 'Skipped: TODO: endpoint returns 200 on sending invalid token     while it should return 403')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip('TODO: endpoint returns 200 on sending invalid token     while it should return 403')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_response"
+  }, {
+    "name" : "host",
+    "value" : "fv-az231-651"
+  }, {
+    "name" : "thread",
+    "value" : "3256-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_response"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_result",
+    "value" : "403"
+  }, {
+    "name" : "token",
+    "value" : "'Bearer abc'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "72bad12f1a93f3bc",
+        "reportUrl" : "https://apetrovskiy.github.io/httpbin-test-task/14//#testresult/72bad12f1a93f3bc",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: endpoint returns 200 on sending invalid token     while it should return 403",
+        "time" : {
+          "start" : 1618601726758,
+          "stop" : 1618601726758,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "62a8d9336c5df659",
+        "reportUrl" : "https://apetrovskiy.github.io/httpbin-test-task/13//#testresult/62a8d9336c5df659",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: TODO: endpoint returns 200 on sending invalid token     while it should return 403",
+        "time" : {
+          "start" : 1618601447725,
+          "stop" : 1618601447725,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.skip('TODO: endpoint returns 200 on sending invalid token     while it should return 403')" ]
+  },
+  "source" : "a4fdfdb656336c08.json",
+  "parameterValues" : [ "403", "'Bearer abc'" ]
+}

@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Fri Apr 16 19:40:35 GMT 2021","Fri Apr 16 19:40:35 GMT 2021","0","tests","test_response","","","","test_inexplicable_response[Bearer abc-403]",""
+"passed","Fri Apr 16 19:40:35 GMT 2021","Fri Apr 16 19:40:35 GMT 2021","394","tests","test_response","","","","test_expected_response[Bearer A-200]",""
+"passed","Fri Apr 16 19:40:34 GMT 2021","Fri Apr 16 19:40:35 GMT 2021","348","tests","test_response","","","","test_expected_response[None-401]",""
