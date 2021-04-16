@@ -26,9 +26,9 @@ jobs:
         flake8 .
     - name: Test with pytest and behave
       run: |
-        pytest --alluredir=allure-results
         behave -f allure_behave.formatter:AllureFormatter -o allure-results ./features
         allure generate allure-results/ -o allure-reports
+        pytest --alluredir=allure-results
         # allure open allure/reports
 #     - name: Analysing the code with pylint
 #       run: |
